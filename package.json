@@ -1,0 +1,21 @@
+{
+  "name": "node-docker",
+  "version": "1.0.0",
+  "description": "dockerize node.js application with mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "docker",
+    "node.js"
+  ],
+  "author": "Shashank S Shetty",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.14"
+  }
+}
